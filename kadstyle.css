@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+}
+
+.kad-header {
+  background-color: #2d2e33;
+  color: white;
+  font-family: verdana;
+  margin: 0;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.kad-header-logo {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0;
+  max-height: 76px;
+}
+
+.kad-header-logo a img {
+  max-width: 40%;
+}
+
+.kad-link {
+  text-decoration: none;
+  color: white;
+}
+
+.kad-nav {
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+}
+
+.kad-nav-list {
+  margin: 0;
+}
+
+.kad-nav-list-item {
+  list-style: none;
+  float: left;
+  padding: 0 20px;
+}
+
+.kad-list-link {
+  color: #bababa;
+}
+
+.kad-list-link:hover {
+  color: #ebebeb;
+  transform: scale(2, 2);
+}
+
+.kad-nav-button {
+  display: inline-block;
+}
+
+
+@media (max-width: 982px) {
+
+  .kad-header {
+    display: block;
+  }
+
+  .kad-header-logo {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    max-height: 20px;
+  }
+
+  .kad-header-logo a img {
+    max-width: 30%;
+  }
+
+  .kad-nav {
+    display: none;
+    height: 0px;
+    width: 0px;
+    position: static;
+    text-align: center;
+  }
+
+  .animated-kad-nav {
+    display: block;
+    animation-name: show-nav;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes show-nav {
+    0% {
+      height: auto;
+      width: auto;
+    }
+
+    100% {
+      height: auto;
+      width: auto;
+    }
+  }
+
+  .kad-nav-list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .kad-nav-list-item {
+    list-style: none;
+    float: none;
+    padding: 2% 5%;
+  }
+
+  .kad-nav-button {
+    position: absolute;
+    right: 4%;
+  }
+
+  .kad-nav-bar {
+    background-color: #dedcdc;
+    width: 1.5rem;
+    height: 2px;
+    margin: 4px 0;
+  }
+
+  .animated-bar-hide {
+    animation-name: bar-hide;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes bar-hide {
+
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+
+    100% {
+      width: 0px;
+      height: 0px;
+    }
+  }
+
+  .animated-bar-cross-left {
+    animation-name: bar-cross-left;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes bar-cross-left {
+    10% {
+      padding: 0;
+      transform: rotate(45deg) translate(4px, 4px);
+    }
+
+    50% {
+      padding: 0;
+      transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    100% {
+      padding: 0;
+      transform: rotate(45deg) translate(7px, 7px);
+    }
+  }
+
+  .animated-bar-cross-right {
+    animation-name: bar-cross-right;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes bar-cross-right {
+    10% {
+      padding: 0;
+      transform: rotate(-45deg);
+    }
+
+    60% {
+      padding: 0;
+      transform: rotate(-45deg) translate(-3px, 3px);
+    }
+
+    100% {
+      padding: 0;
+      transform: rotate(-45deg) translate(-3px, 3px);
+    }
+  }
+
+}
