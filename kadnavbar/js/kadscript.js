@@ -1,9 +1,9 @@
 
-let menuButton = document.getElementById("kad-menu-button");
-let navItems = document.getElementById("kad-menu");
-let barHide = document.querySelector(".kad-nav-bar-two");
-let barLeft = document.querySelector(".kad-nav-bar-one");
-let barRight = document.querySelector(".kad-nav-bar-three");
+let menuButton = document.querySelector(".kad-menu-button");
+let navItems = document.querySelector(".kad-nav");
+let barHide = document.querySelector(".kad-menu-bar-two");
+let barLeft = document.querySelector(".kad-menu-bar-one");
+let barRight = document.querySelector(".kad-menu-bar-three");
 
 menuButton.onclick = openMenu;
 
