@@ -11,15 +11,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 20px;
+  padding: 1.25rem;
   position: relative;
 }
 
 .kad-header-logo {
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0;
-  max-height: 76px;
 }
 
 .kad-link {
@@ -29,12 +28,12 @@ body {
 
 .kad-nav {
   display: inline-block;
-  position: absolute;
-  right: 5%;
+  position: relative;
 }
 
 .kad-nav-list {
   margin: 0;
+  padding-left: 0px;
 }
 
 .kad-nav-list-item {
@@ -45,6 +44,7 @@ body {
 
 .kad-list-link {
   color: #bababa;
+  font-size: 0.88rem;
 }
 
 .kad-list-link:hover {
@@ -73,7 +73,7 @@ body {
   }
 
   .kad-header-logo {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0;
   }
 
