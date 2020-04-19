@@ -2,8 +2,10 @@ body {
   margin: 0;
 }
 
+/************ Main Header Styles ************/
+
 .kad-header {
-  background-color: #2d2e33;
+  background-color: #2d2e33; /*header backgroung color can be replaced with color of choice*/
   color: white;
   font-family: verdana;
   margin: 0;
@@ -56,6 +58,7 @@ body {
   display: inline-block;
 }
 
+/************ Mobile Header ************/
 
 @media (max-width: 982px) {
 
@@ -85,11 +88,13 @@ body {
     text-align: center;
   }
 
+  /**** Nav Animation ****/
+
   .animated-kad-nav {
     display: block;
     padding: 0 0 20px;
     animation-name: show-nav;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
   }
@@ -123,6 +128,8 @@ body {
     height: 2px;
     margin: 4px 0;
   }
+
+  /**** Menu Button Animation ****/
 
   .animated-bar-hide {
     animation-name: bar-hide;
@@ -192,4 +199,28 @@ body {
     }
   }
 
+}
+
+
+/************ Transparent Header ************/
+
+.kad-header-transparent {
+  background-color: transparent;
+  color: #2d2e33;
+}
+
+.kad-header-transparent .kad-link {
+  color: #2d2e33;
+}
+
+.kad-header-transparent .kad-nav .kad-list-link {
+  color: #6a6b70;
+}
+
+.kad-header-transparent .kad-list-link:hover {
+  color: #2d2e33;
+}
+
+..kad-header-transparent .kad-menu-bar {
+  background-color: #2d2e33;
 }
