@@ -80,9 +80,19 @@ body {
   margin: 0 0 0 20px;
 }
 
+.kad-nav-button:hover {
+  background-color: rgb(2, 158, 2);
+  border: 1px solid rgb(2, 158, 2);
+  color: white;
+}
+
 .kad-nav-extras .kad-nav-icons a {
   color: grey;
   padding: 0 5px;
+}
+
+.kad-nav-extras .kad-nav-icons a:hover {
+  color: rgb(206, 194, 194);
 }
 
 
@@ -275,4 +285,14 @@ body {
   border-radius: 100px;
   padding: 0.5rem 0.9rem;
   margin: 0 0 0 20px;
+}
+
+.kad-header-transparent .kad-nav-button:hover {
+  background-color: rgb(2, 158, 2);
+  border: 1px solid rgb(2, 158, 2);
+  color: white;
+}
+
+.kad-header-transparent .kad-nav-extras .kad-nav-icons a:hover {
+  color: #2d2e33;
 }
