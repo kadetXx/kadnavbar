@@ -5,13 +5,15 @@ body {
 /************ Main Header Styles ************/
 
 .kad-header {
-  background-color: #2d2e33; /*header backgroung color can be replaced with color of choice*/
+  background-color: #2d2e33;
+  /*header backgroung color can be replaced with color of choice*/
   color: white;
   font-family: verdana;
   margin: 0;
   max-width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1.25rem;
   position: relative;
@@ -29,8 +31,8 @@ body {
 }
 
 .kad-nav {
-  display: inline-block;
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .kad-nav-list {
@@ -57,6 +59,32 @@ body {
 .kad-menu-button {
   display: inline-block;
 }
+
+
+/************ Extra buttons/icons at the right ************/
+
+.kad-nav-extras {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: absolute;
+  right: 2%;
+}
+
+.kad-nav-button {
+  background-color: transparent;
+  border: 1px solid rgb(206, 194, 194);
+  color: white;
+  border-radius: 100px;
+  padding: 0.5rem 0.9rem;
+  margin: 0 0 0 20px;
+}
+
+.kad-nav-extras .kad-nav-icons a {
+  color: grey;
+  padding: 0 5px;
+}
+
 
 /************ Mobile Header ************/
 
@@ -87,6 +115,21 @@ body {
     position: static;
     text-align: center;
   }
+
+  .kad-nav-extras {
+    display: block;
+    position: static;
+    padding: 2% 0;;
+  }
+
+  .kad-nav-button {
+    margin: 0 0 0 0;
+  }
+
+  .kad-nav-extras .kad-nav-icons {
+    padding: 20px 5px 0;
+  }
+  
 
   /**** Nav Animation ****/
 
@@ -221,6 +264,15 @@ body {
   color: #2d2e33;
 }
 
-..kad-header-transparent .kad-menu-bar {
+.kad-header-transparent .kad-menu-bar {
   background-color: #2d2e33;
+}
+
+.kad-header-transparent .kad-nav-button {
+  background-color: transparent;
+  border: 1px solid #2d2e33;
+  color: #2d2e33;
+  border-radius: 100px;
+  padding: 0.5rem 0.9rem;
+  margin: 0 0 0 20px;
 }
