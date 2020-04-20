@@ -7,7 +7,7 @@ Responsive navbar with zero bootstrap/jQuery dependencies and css cross-bow nav 
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](http://opensource.org/licenses/MIT)
 
 
-![mobile preview](https://ansalog.com/wp-content/uploads/2020/04/captured-3.gif)
+![code snapshot](https://ansalog.com/wp-content/uploads/2020/04/code.png)
 
 </div>
 
