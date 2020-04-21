@@ -1,6 +1,5 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  overflow: hidden;
 }
 
 /*--------------- Header Custom Styles ---------------*/
@@ -128,7 +127,7 @@ body {
 
   #top-container {
     text-align: center;
-    padding: 10% 5% 15%;
+    padding: 10% 5% 18%;
   }
 
   .container-top {
