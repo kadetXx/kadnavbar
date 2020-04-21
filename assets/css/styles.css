@@ -36,9 +36,9 @@ body {
 .bouncy-img {
   border-radius: 10px;
   max-width: 80%;
-  box-shadow: 0 8px 10px 3px white;
+  box-shadow: 0px 1px 10px 0.1px white;
   position: relative;
-  animation: bounce 1.5s linear infinite;
+  animation: bounce 2s linear infinite;
 }
 
 
@@ -48,7 +48,7 @@ body {
   }
 
   50% {
-    top: 1rem;
+    top: 0.7rem;
   }
 
   100% {
@@ -81,9 +81,20 @@ body {
   margin: 1% 0 0 0;
 }
 
+.button:hover {
+  background-color: #fff;
+  color: black;
+}
+
 .solid-button {
   background-color: #fff;
   color: black;
+}
+
+.solid-button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
 }
 
 
@@ -94,7 +105,7 @@ body {
 
   #top-container {
     text-align: center;
-    padding: 10% 5%;
+    padding: 10% 5% 15%;
   }
 
   .container-top {
@@ -112,7 +123,7 @@ body {
   }
 
   .top-text h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin: 1% 0;
   }
 
