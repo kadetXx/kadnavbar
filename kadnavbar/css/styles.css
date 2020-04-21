@@ -47,13 +47,11 @@ body {
 }
 
 .kad-list-link {
-  color: #bababa;
   font-size: 0.88rem;
 }
 
 .kad-list-link:hover {
-  color: #ebebeb;
-  transform: scale(2, 2);
+  color: #bababa;
 }
 
 .kad-menu-button {
@@ -73,7 +71,7 @@ body {
 
 .kad-nav-button {
   background-color: transparent;
-  border: 1px solid rgb(206, 194, 194);
+  border: 1px solid white;
   color: white;
   border-radius: 100px;
   padding: 0.5rem 0.9rem;
@@ -87,12 +85,12 @@ body {
 }
 
 .kad-nav-extras .kad-nav-icons a {
-  color: grey;
+  color: #e4dcdc;
   padding: 0 5px;
 }
 
 .kad-nav-extras .kad-nav-icons a:hover {
-  color: rgb(206, 194, 194);
+  color: #bababa;
 }
 
 
@@ -233,12 +231,8 @@ body {
   color: #2d2e33;
 }
 
-.kad-header-transparent .kad-nav .kad-list-link {
-  color: #6a6b70;
-}
-
 .kad-header-transparent .kad-list-link:hover {
-  color: #2d2e33;
+  color: #6a6b70;
 }
 
 .kad-header-transparent .kad-menu-bar {
@@ -250,14 +244,16 @@ body {
   border: 1px solid #2d2e33;
   color: #2d2e33;
   border-radius: 100px;
-  padding: 0.5rem 0.9rem;
-  margin: 0 0 0 20px;
 }
 
 .kad-header-transparent .kad-nav-button:hover {
   background-color: rgb(2, 158, 2);
   border: 1px solid rgb(2, 158, 2);
   color: white;
+}
+
+.kad-header-transparent .kad-nav-extras .kad-nav-icons a {
+  color: grey;
 }
 
 .kad-header-transparent .kad-nav-extras .kad-nav-icons a:hover {
