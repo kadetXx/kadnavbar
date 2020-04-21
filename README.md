@@ -4,10 +4,9 @@
 
 Responsive navbar with zero bootstrap/jQuery dependencies and css cross-bow nav button animation.
 
+[![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat-square)](http://makeapullrequest.com)
-[![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
-
 
 ![code snapshot](images/kadnavbar-basic-snapshot.png)
 
@@ -98,7 +97,7 @@ You can either download asset folder and link up in your html code or link to fi
 
 ## Icons and buttons
 
-Kadnavbar also supports extra buttons or icons at the right side of the header (desktop view). To use this feature, simply copy the code below and paste it inside the header template provided above just before the closing nav tag. Replace the '<i>' links with icon links of your choice.
+Kadnavbar also supports extra buttons or icons at the right side of the header (desktop view). To use this feature, simply copy the code below and paste it inside the header template provided above just before the closing `nav` tag. Replace the `i` links with icon links of your choice.
 
 ```html
 <div class="kad-nav-extras">
@@ -112,14 +111,14 @@ Kadnavbar also supports extra buttons or icons at the right side of the header (
         </div>
 </div>
 ```
-Don't forget to include the icon library stylesheet link in your html head. By default, kad nav bar is set to use font awesome icons (I recommend this) so you can just copy the icon library stylesheet link below and paste it inside your html head tag.
+Don't forget to include the icon library stylesheet link in your html `head`. By default, kad nav bar is set to use font awesome icons (I recommend this) so you can just copy the icon library stylesheet link below and paste it inside your html `head` tag.
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 ```
 ## Transparent/Light Version
 
-The default Kadnavbar has a dark background color which can be switched by changing the backgroung-color property of the ".kad-header" class. I decided to add a feature for a transparent navbar. You can make the navbar transparent by adding the 'kad-header-transparent' class to the header tag as shown below.
+The default Kadnavbar has a dark background color which can abe switched by changing the background-color property of the `.kad-header` class. I decided to add a feature for a transparent navbar for much lighter background colors. You can make the navbar transparent by adding the `kad-header-transparent` class to the `header` tag as shown below.
 
 ```html
 <header class="kad-header kad-header-transparent">
