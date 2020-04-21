@@ -8,7 +8,7 @@ let barRight = document.querySelector(".kad-menu-bar-three");
 menuButton.onclick = openMenu;
 
 function openMenu() {
-  navItems.classList.toggle("animated-kad-nav");
+  navItems.classList.toggle("toggle-kad-nav");
   barHide.classList.toggle("animated-bar-hide");
   barLeft.classList.toggle("animated-bar-cross-left");
   barRight.classList.toggle("animated-bar-cross-right");

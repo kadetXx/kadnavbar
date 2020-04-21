@@ -120,8 +120,6 @@ body {
 
   .kad-nav {
     display: none;
-    height: 0px;
-    width: 0px;
     position: static;
     text-align: center;
   }
@@ -143,25 +141,9 @@ body {
 
   /**** Nav Animation ****/
 
-  .animated-kad-nav {
+  .toggle-kad-nav {
     display: block;
     padding: 0 0 20px;
-    animation-name: show-nav;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes show-nav {
-    0% {
-      height: auto;
-      width: auto;
-    }
-
-    100% {
-      height: auto;
-      width: auto;
-    }
   }
 
   .kad-nav-list {
