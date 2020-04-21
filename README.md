@@ -30,19 +30,19 @@ Demo preview is available on the [github page demo of the repo](https://kadetxx.
 
 ## Quick Usage Guide
 
-You can either download asset folder and link up in your html code or link to files directly from github servers.
+You can either download asset folder and link up in your html code or link to the files directly from google servers (I couldn't get a real cdn but google is just as fast as cloudflare or maxcdn).
 
-### Using github servers
+### Using google servers
 
 1. Copy and paste the css link below into your index.html file in the header. This link should come before your main style link in your header in order to allow navbar edits in your main css file. 
 
 ```html
-<link rel="stylesheet" href="https://github.com/kadetXx/kadnavbar/blob/master/kadnavbar/css/styles.css">
+<link rel="stylesheet" href="https://sites.google.com/site/kadnavcdn/home/styles.css">
 ```
 2. Copy and paste this js script link in your index.html file just before the closing body tag.
 
 ```html
-<script src="https://github.com/kadetXx/kadnavbar/blob/master/kadnavbar/js/script.js"></script>
+<script src="https://sites.google.com/site/kadnavcdn/home/script.js"></script>
 ```
 3. Structure your header as specified below or preferrably, copy the default html structure for the header navbar below and paste inside your index.html file just after the opening body tag.
 
