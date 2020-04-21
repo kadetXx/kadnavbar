@@ -4,7 +4,9 @@
 
 Responsive navbar with zero bootstrap/jQuery dependencies and css cross-bow nav button animation.
 
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](http://opensource.org/licenses/MIT)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat-square)](http://makeapullrequest.com)
+[![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 
 
 ![code snapshot](images/kadnavbar-basic-snapshot.png)
@@ -17,16 +19,17 @@ Responsive navbar with zero bootstrap/jQuery dependencies and css cross-bow nav 
 * No jQuery or external js libraries
 * Completely independent 
 * Doesn't break main stylesheet
+* Super responsive
 * All animations are css animations
 * Can accomodate various range of nav brand size
 * Semantic html markup
 * Extra support for [font-awesome](https://fontawesome.com/) icons
 
-## Documentation
+## Demo
 
-Complete documentation is available in the [github page demo of the repo](https://github.com/kadetXx/kadnavbar). For a quick start, see usage guide below
+Demo preview is available on the [github page demo of the repo](https://kadetxx.github.io/kadnavbar/) (detailed documentation coming soon on this page as well). For a quick start, see usage guide below.
 
-## Quick Start Guide
+## Quick Usage Guide
 
 You can either download asset folder and link up in your html code or link to files directly from github servers.
 
@@ -76,7 +79,7 @@ You can either download asset folder and link up in your html code or link to fi
 ```
 4. Save changes.
 
-## Downloading Source files
+### Downloading Source files
 
 1. Download kadnavbar zip file here.
 2. Unzip file into your root project folder.
@@ -85,7 +88,6 @@ You can either download asset folder and link up in your html code or link to fi
 ```html
 <link rel="stylesheet" href="kadnavbar/css/styles.css">
 ```
-
 4.  Copy and paste this js script link in your index.html file just before the closing body tag.
 
 ```html
@@ -93,6 +95,35 @@ You can either download asset folder and link up in your html code or link to fi
 ```
 5. Copy the default html structure as specified in the github server method above.
 6. Save changes.
+
+## Icons and buttons
+
+Kadnavbar also supports extra buttons or icons at the right side of the header (desktop view). To use this feature, simply copy the code below and paste it inside the header template provided above just before the closing nav tag. Replace the '<i>' links with icon links of your choice.
+
+```html
+<div class="kad-nav-extras">
+        <button class="kad-nav-button">Download</button>
+        <div class="kad-nav-icons">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-codepen"></i></a>
+          <a href="#"><i class="fas fa-hashtag"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></i></a>
+        </div>
+</div>
+```
+Don't forget to include the icon library stylesheet link in your html head. By default, kad nav bar is set to use font awesome icons (I recommend this) so you can just copy the icon library stylesheet link below and paste it inside your html head tag.
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+```
+## Transparent/Light Version
+
+The default Kadnavbar has a dark background color which can be switched by changing the backgroung-color property of the ".kad-header" class. I decided to add a feature for a transparent navbar. You can make the navbar transparent by adding the 'kad-header-transparent' class to the header tag as shown below.
+
+```html
+<header class="kad-header kad-header-transparent">
+```
 
 ## Licensing 
 
@@ -102,6 +133,8 @@ This project is an opensource project under the MIT license and can be used for 
 
 This project is open to collaborators and contributors from all over the world. Kindly report an issue or fork repo, edit and create a pull request.
 
-*Created by kadet*
+## Author
+
+Collins Enebeli
 
 > Originally inspired by a failed attempt to use bootstrap's navbar without importing the full bootstrap's styling to the whole webpage.
