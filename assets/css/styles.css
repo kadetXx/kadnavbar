@@ -1,0 +1,126 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*--------------- Header Custom Styles ---------------*/
+
+.kad-header {
+  background-color: #24292E;
+}
+
+/*--------------- Hero Styling ---------------*/
+
+#top-container {
+  padding: 9% 10% 12%;
+  background: url('../../images/asfalt-light.png')  #2b3137;
+  background-size: initial;
+  color: #fff;
+}
+
+.container-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column-top {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.column-img {
+  align-items: center;
+}
+
+.bouncy-img {
+  border-radius: 10px;
+  max-width: 80%;
+  box-shadow: 0 8px 10px 3px white;
+  position: relative;
+  animation: bounce 1.5s linear infinite;
+}
+
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 1rem;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.top-text {
+  color: rgba(255, 255, 255, 0.925);
+}
+
+.top-text p {
+  color: rgb(207, 205, 205);
+  padding: 0 20px 0 2px;
+  line-height: 1.8;
+}
+
+.top-text h2 {
+  /* color: #3f424a; */
+  font-size: 3rem;
+  margin: 1% 0;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 100px;
+  padding: 0.7rem 1.8rem;
+  margin: 1% 0 0 0;
+}
+
+.solid-button {
+  background-color: #fff;
+  color: black;
+}
+
+
+/*--------------- Responsive Styling ---------------*/
+
+
+@media (max-width: 992px) {
+
+  #top-container {
+    text-align: center;
+    padding: 10% 5%;
+  }
+
+  .container-top {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .column-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .top-text h2 {
+    font-size: 2rem;
+    margin: 1% 0;
+  }
+
+  .top-text p {
+    padding: 0 2%;
+  }
+
+  .slice-on-mobile {
+    display: none;
+  }
+}
