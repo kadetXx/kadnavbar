@@ -44,7 +44,7 @@ You can either download asset folder and link up in your html code or link to fi
 ```html
 <script src="https://github.com/kadetXx/kadnavbar/blob/master/kadnavbar/js/script.js"></script>
 ```
-3. Copy the default html structure for the header navbar and paste inside your index.html file just after the opening body tag.
+3. Structure your header as specified below or preferrably, copy the default html structure for the header navbar below and paste inside your index.html file just after the opening body tag.
 
 ```html
 <header class="kad-header">
@@ -92,36 +92,70 @@ You can either download asset folder and link up in your html code or link to fi
 ```html
 <script src="kadnavbar/js/script.js"></script>
 ```
-5. Copy the default html structure as specified in the github server method above.
+5. Structure your header as specified in the code snippet above for github server method above or preferrably copy the snippet and paste.
 6. Save changes.
 
 ## Icons and buttons
 
-Kadnavbar also supports extra buttons or icons at the right side of the header (desktop view). To use this feature, simply copy the code below and paste it inside the header template provided above just before the closing `nav` tag. Replace the `i` links with icon links of your choice.
+Kadnavbar also supports extra buttons or icons at the right side of the header (desktop view). To use this feature, simply add the `kad-nav-extra` div to the default html header just before the closing `nav` tag. Replace the `i` tags with icons of your choice. 
 
 ```html
-<div class="kad-nav-extras">
+
+<header class="kad-header">
+
+    <div class="kad-mobile-container">
+
+      <div class="kad-header-logo">
+        <a class="kad-link" href="#" title="kadnavbar">Kadnavbar</a>
+      </div>
+
+      <div class="kad-menu-button">
+        <div class="kad-menu-bar kad-menu-bar-one"></div>
+        <div class="kad-menu-bar kad-menu-bar-two"></div>
+        <div class="kad-menu-bar kad-menu-bar-three"></div>
+      </div>
+
+    </div>
+
+    <nav class="kad-nav">
+      <ul class="kad-nav-list">
+        <li class="kad-nav-list-item"><a class="kad-link kad-list-link" href="#">Home</a></li>
+        <li class="kad-nav-list-item"><a class="kad-link kad-list-link" href="#">Features</a></li>
+        <li class="kad-nav-list-item"><a class="kad-link kad-list-link" href="#">Documentation</a></li>
+        <li class="kad-nav-list-item"><a class="kad-link kad-list-link" href="#">Contribute</a></li>
+        <li class="kad-nav-list-item"><a class="kad-link kad-list-link" href="#">Report issue</a></li>
+      </ul>
+
+      <div class="kad-nav-extras">
         <button class="kad-nav-button">Download</button>
         <div class="kad-nav-icons">
           <a href="#"><i class="fab fa-github"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-codepen"></i></a>
           <a href="#"><i class="fas fa-hashtag"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></i></a>
+          <a href="#""><i class="fas fa-envelope"></i></i></a>
         </div>
-</div>
+      </div>
+
+    </nav>
+
+  </header>
 ```
-Don't forget to include the icon library stylesheet link in your html `head`. By default, kad nav bar is set to use font awesome icons (I recommend this) so you can just copy the icon library stylesheet link below and paste it inside your html `head` tag.
+Don't forget to include the icon library stylesheet link in your html `head`. By default, kad nav bar is set to use font awesome icons (I recommend this) so you can just copy the icon library stylesheet link below and paste it inside your html `head` tag. 
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 ```
+You can as well add/delete icons and/or button. By default, the navbar uses one buttton and five icons
+
 ## Transparent/Light Version
 
 The default Kadnavbar has a dark background color which can abe switched by changing the background-color property of the `.kad-header` class. I decided to add a feature for a transparent navbar for much lighter background colors. You can make the navbar transparent by adding the `kad-header-transparent` class to the `header` tag as shown below.
 
 ```html
 <header class="kad-header kad-header-transparent">
+    ...
+</header>    
 ```
 
 ## Licensing 
@@ -136,4 +170,4 @@ This project is open to collaborators and contributors from all over the world. 
 
 Collins Enebeli
 
-> Originally inspired by a failed attempt to use bootstrap's navbar without importing the full bootstrap's styling to the whole webpage.
+> Originally inspired by bootstrap's navbar component and a failed attempt to use it on my webpage without importing the full bootstrap's styling because it tampers with the styling of all other elements on the page.
