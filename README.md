@@ -80,7 +80,7 @@ You can either download asset folder and link up in your html code or link to th
 
 ### Downloading Source files
 
-1. Download kadnavbar [zip file here](https://sites.google.com/site/kadnavcdn/home/kadnavbar.zip?attredirects=0&d=1).
+1. Download kadnavbar [zip file here](https://sites.google.com/site/kadnavcdn/home/kadnavbar%20v1.0.zip?attredirects=0&d=1).
 2. Unzip file into your root project folder.
 3. Copy and paste the css stylesheet link below into your index.html file in the header.
 
