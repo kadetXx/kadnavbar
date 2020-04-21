@@ -81,9 +81,24 @@ body {
   margin: 1% 0 0 0;
 }
 
+
 .button:hover {
   background-color: #fff;
   color: black;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: black;
+}
+
+
+.button:focus {
+  outline: 0;
 }
 
 .solid-button {
@@ -97,6 +112,13 @@ body {
   color: white;
 }
 
+.solid-button a {
+  color: black;
+}
+
+.solid-button a:hover {
+  color: white;
+}
 
 /*--------------- Responsive Styling ---------------*/
 
@@ -125,10 +147,11 @@ body {
   .top-text h2 {
     font-size: 2.4rem;
     margin: 1% 0;
+    padding: 0 2%;
   }
 
   .top-text p {
-    padding: 0 5%;
+    padding: 0 7%;
   }
 
   .slice-on-mobile {

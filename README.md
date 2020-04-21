@@ -26,7 +26,7 @@ Responsive navbar with zero bootstrap/jQuery dependencies and css cross-bow nav 
 
 ## Demo
 
-Demo preview is available on the [github page demo of the repo](https://kadetxx.github.io/kadnavbar/) (detailed documentation coming soon on this page as well). For a quick start, see usage guide below.
+Demo preview is available on the [github page demo of the repo](https://kadetxx.github.io/kadnavbar/).
 
 ## Quick Usage Guide
 
