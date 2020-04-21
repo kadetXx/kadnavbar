@@ -119,16 +119,16 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 12%;
   }
 
   .top-text h2 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     margin: 1% 0;
   }
 
   .top-text p {
-    padding: 0 2%;
+    padding: 0 5%;
   }
 
   .slice-on-mobile {
