@@ -162,15 +162,17 @@ body {
     width: 1.5rem;
     height: 2px;
     margin: 4px 0;
+    padding: 0;
+  }
+
+  .kad-menu-bar-two {
+    width: 1.1rem;
   }
 
   /**** Menu Button Animation ****/
 
-  .animated-bar-hide {
-    animation-name: bar-hide;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
+  .hide-bar-two {
+    animation: bar-hide 1s linear forwards;
   }
 
   @keyframes bar-hide {
@@ -186,56 +188,43 @@ body {
     }
   }
 
-  .animated-bar-cross-left {
-    animation-name: bar-cross-left;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
+  .cross-bar-one{
+    animation: bar-cross-left 0.5s linear forwards;
   }
 
   @keyframes bar-cross-left {
     10% {
-      padding: 0;
       transform: rotate(45deg) translate(4px, 4px);
     }
 
     50% {
-      padding: 0;
       transform: rotate(45deg) translate(7px, 7px);
     }
 
     100% {
-      padding: 0;
       transform: rotate(45deg) translate(3px, 2px);
     }
   }
 
-  .animated-bar-cross-right {
-    animation-name: bar-cross-right;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
+  .cross-bar-three {
+    animation: bar-cross-right 0.5s linear forwards;
   }
 
   @keyframes bar-cross-right {
     10% {
-      padding: 0;
       transform: rotate(-45deg);
     }
 
     60% {
-      padding: 0;
       transform: rotate(-45deg) translate(-3px, 3px);
     }
 
     100% {
-      padding: 0;
       transform: rotate(-45deg) translate(1px, -2px);
     }
   }
 
 }
-
 
 /************ Transparent Header ************/
 

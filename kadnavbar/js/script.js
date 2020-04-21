@@ -9,7 +9,7 @@ menuButton.onclick = openMenu;
 
 function openMenu() {
   navItems.classList.toggle("toggle-kad-nav");
-  barHide.classList.toggle("animated-bar-hide");
-  barLeft.classList.toggle("animated-bar-cross-left");
-  barRight.classList.toggle("animated-bar-cross-right");
+  barHide.classList.toggle("hide-bar-two");
+  barLeft.classList.toggle("cross-bar-one");
+  barRight.classList.toggle("cross-bar-three");
 }
