@@ -19,7 +19,7 @@ Responsive navbar with zero bootstrap/jQuery dependencies and css cross-bow nav 
 * Completely independent 
 * Doesn't break main stylesheet
 * Super responsive
-* All animations are css animations
+* 100% css animations
 * Can accomodate various range of nav brand size
 * Semantic html markup
 * Extra support for [font-awesome](https://fontawesome.com/) icons
@@ -92,7 +92,7 @@ You can either download asset folder and link up in your html code or link to th
 ```html
 <script src="kadnavbar/js/script.js"></script>
 ```
-5. Structure your header as specified in the code snippet above for github server method above or preferrably copy the snippet and paste.
+5. Structure your header as specified in the code snippet above for google server method above or preferrably copy the snippet and paste.
 6. Save changes.
 
 ## Icons and buttons
@@ -146,15 +146,17 @@ Don't forget to include the icon library stylesheet link in your html `head`. By
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 ```
-You can as well add/delete icons and/or button. By default, the navbar uses one buttton and five icons
+You can as well add/delete icons and/or button. By default, this navbar uses one buttton and five icons
 
 ## Transparent/Light Version
 
-The default Kadnavbar has a dark background color which can abe switched by changing the background-color property of the `.kad-header` class. I decided to add a feature for a transparent navbar for much lighter background colors. You can make the navbar transparent by adding the `kad-header-transparent` class to the `header` tag as shown below.
+The default Kadnavbar has a dark background color which can abe switched by changing the background-color property of the `kad-header` class. I decided to add a feature for a transparent navbar for lighter background colors. You can make the navbar transparent by adding the `kad-header-transparent` class to the `header` tag as shown below.
 
 ```html
 <header class="kad-header kad-header-transparent">
+    
     ...
+    
 </header>    
 ```
 
