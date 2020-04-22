@@ -84,6 +84,15 @@ body {
   color: white;
 }
 
+.kad-nav-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.kad-nav-button a:hover {
+  color: white;
+}
+
 .kad-nav-extras .kad-nav-icons a {
   color: #e4dcdc;
   padding: 0 5px;
@@ -258,4 +267,13 @@ body {
 
 .kad-header-transparent .kad-nav-extras .kad-nav-icons a:hover {
   color: #2d2e33;
+}
+
+.kad-header-transparent .kad-nav-button a {
+  color: #2d2e33;
+  text-decoration: none;
+}
+
+.kad-header-transparent .kad-nav-button a:hover {
+  color: white;
 }
